@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1">
+
+    <title>STEELWALLET{% if page.path != "index.html" %} {{ page.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description }}">
+
+    <meta property="og:url" content="https://steel-wallet.de" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.path == "index.html" %}STEELWALLET{% else %}{{ page.title }}{% endif %}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:image" content="{{ page.image | relative_url }}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Blockark_GmbH" />
+
+    <link rel="stylesheet" href='{{"css/custom_bulma_v7.css" | relative_url }}'>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <link rel="icon" type="image/png" href='{{"img/fav/SW_fav_32x32.png"| relative_url }}' sizes="32x32" />
+    <link rel="icon" type="image/png" href='{{"img/fav/SW_fav_16x16.png"| relative_url }}' sizes="16x16" />
+    <link rel="icon" type="image/png" href='{{"img/fav/SW_fav_128x128.png"| relative_url }}' sizes="128x128" />
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#343c66",
+          "text": "#cfcfe8"
+        },
+        "button": {
+          "background": "transparent",
+          "border": "#f00b0b",
+          "text": "#f00b0b"
+        }
+      },
+      "position": "bottom-left",
+      "content": {
+        "message": "This website uses cookies. By continuing to use this website you agree to the use of cookies. For further information visit our",
+        "dismiss": "I agree",
+        "link": "Privacy Policy",
+        "href": "https://steel-wallet.de/policies_EN#Datenschutz"
+      }
+    })});
+    </script>
+
+    <style>
+        @media screen and (max-width: 700px) {
+            #key-mobile {
+                display: none; !important;
+                }
+            }
+        @media screen and (min-width: 700px) {
+            #wider {
+                width: 10%; !important;
+                }
+            }
+    </style>
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDomains", ["*.steel-wallet.de","*.steel-wallet.de"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://blockark.innocraft.cloud/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
+
+  </head>
+<body style="background-color: #333132">
+  <noscript class="noscript"></noscript>
+
+
+
+
+  {{ content }}
+
+  <footer id="footer">
+    <div class="container p-4">
+      <div class="columns">
+        <div class="column">
+          <nav class="policies-nav footer-nav">
+            <h4 class="has-text-white">Contact</h4>
+            <ul>
+              <li>
+                <a class="has-text-white" href="mailto:support@blockark.de">Email</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="column" >
+          <nav class="policies-nav footer-nav">
+            <h4 class="has-text-white">Legal</h4>
+            <ul>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/cancellation">Cancellation</a>
+              </li>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/privacy">Privacy Policy</a>
+              </li>
+                 <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/shipping">Shipping</a>
+              </li>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/terms">Terms</a>
+              </li>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/legal-notice">Imprint</a><br>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiN1ALaHw8b0sjpLaFCBRDOAMzYGw8ew4"></script>
+  <script src='{{ "js/jquery-3.1.1.min.js" | relative_url }}'></script>
+  </body>
+</html>
