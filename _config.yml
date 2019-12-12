@@ -1,10 +1,10 @@
 # For technical reasons, this file is not reloaded automatically when you run the command
 # 'bundle exec jekyll serve'. If you change this file, you have to restart the server process.
 
-title: Shift Cryptosecurity
+title: Blockark
 permalink: pretty
 date_format: "%e %B %Y" # http://strftime.net
-baseurl: "blockark_new"
+baseurl: /blockark_new
 
 # https://github.com/jekyll/jekyll/issues/7478
 theme: null
