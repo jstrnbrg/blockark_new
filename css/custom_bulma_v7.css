@@ -3520,6 +3520,7 @@ a.tag:hover {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #333132;
   max-width: 100%;
+  min-height:35em;
   position: relative; }
 
 .card-header {
@@ -7166,8 +7167,8 @@ nav.top-nav {
 .block {
   position: relative;
   height: 100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 .block-mono .block-title {
   color: #333132; }
