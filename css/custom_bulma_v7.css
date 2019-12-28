@@ -3523,6 +3523,10 @@ a.tag:hover {
   min-height:35em;
   position: relative; }
 
+  .card-small {
+    min-height:0em;
+  }
+  
 .card-header {
   align-items: stretch;
   box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
