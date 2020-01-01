@@ -6677,7 +6677,8 @@ input, select {
   height: 100%; }
 
 .larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p, {
-  font-size: 1.625rem; }
+  font-size: 1.625rem;
+}
   @media screen and (min-width: 769px), print {
     .larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p, .block ul {
       font-size: 1.3rem; } }
@@ -7171,8 +7172,7 @@ nav.top-nav {
 .block {
   position: relative;
   height: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding: 1.5rem;}
 
 .block-mono .block-title {
   color: #333132; }
@@ -10359,3 +10359,11 @@ html.remodal-is-locked {
   transition: opacity 600ms; }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+
+@media screen and (min-width: 768px) {
+  .mobile-only {
+    display: None;
+  }
+}
