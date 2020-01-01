@@ -3526,7 +3526,7 @@ a.tag:hover {
   .card-small {
     min-height:0em;
   }
-  
+
 .card-header {
   align-items: stretch;
   box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
@@ -6676,13 +6676,13 @@ input, select {
   width: 100%;
   height: 100%; }
 
-.larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p, .block ul {
+.larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p, {
   font-size: 1.625rem; }
   @media screen and (min-width: 769px), print {
     .larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p, .block ul {
       font-size: 1.3rem; } }
   @media screen and (min-width: 1024px) {
-    .larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p, .block ul {
+    .larger-copy p, .larger-copy p.title, .larger-copy li, .block-sub-title, .block p,  {
       font-size: 1.625rem; } }
 
 .hero-banner p.block-sub-title {
