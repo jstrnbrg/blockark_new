@@ -5,14 +5,14 @@ function goBack() {
     window.history.back();
   }
   else {
-    window.location.href = '/'; 
+    window.location.href = '/';
   }
 }
 </script>
 <header style="background-color: #fff">
   <div class="container">
     <div class="row is-gapless">
-      {% if page.title != "Home" %}
+      {% if page.title != "Blockark" %}
       <button class="btn btn-secondary p-1 m-2" onclick="goBack()">Back</button>
       {% endif %}
       <div class="column p-2"  >
