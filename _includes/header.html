@@ -1,6 +1,12 @@
 <script>
 function goBack() {
-  window.history.back();
+  const url = "blockark.de"
+  if(document.referrer.indexOf(url) >= 0) {
+    window.history.back();
+  }
+  else {
+    window.location.href = '/'; 
+  }
 }
 </script>
 <header style="background-color: #fff">

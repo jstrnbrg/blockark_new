@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1">
 
-    <title>Steelwallet{% if page.path != "index.html" %} {{ page.title }}{% endif %}</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}">
+
 
     <meta property="og:url" content="https://steel-wallet.de" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{% if page.path == "index.html" %}Steelwallet{% else %}{{ page.title }}{% endif %}" />
+    <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:image" content="{{ page.image | relative_url }}" />
     <meta property="og:image:type" content="image/png" />
@@ -69,7 +70,7 @@
     <script type="text/javascript">
       var _paq = _paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(["setDomains", ["*.steel-wallet.de","*.steel-wallet.de"]]);
+      _paq.push(["setDomains", ["*.blockark.de",]]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
