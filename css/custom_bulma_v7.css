@@ -6564,29 +6564,12 @@ label.panel-block {
 
 /*------------------------------------* BEGIN
 \*------------------------------------*/
-@font-face {
-  font-family: 'LabGrotesqueRegular';
-  src: url("../fonts/LabGrotesque-Regular.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/LabGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/LabGrotesque-Regular.woff2") format("woff2"), url("../fonts/LabGrotesque-Regular.woff") format("woff"); }
-
-@font-face {
-  font-family: 'LabGrotesqueMedium';
-  src: url("../fonts/LabGrotesque-Medium.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/LabGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/LabGrotesque-Medium.woff2") format("woff2"), url("../fonts/LabGrotesque-Medium.woff") format("woff"); }
-
-@font-face {
-  font-family: 'LabGrotesqueBold';
-  src: url("../fonts/LabGrotesque-Bold.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/LabGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/LabGrotesque-Bold.woff2") format("woff2"), url("../fonts/LabGrotesque-Bold.woff") format("woff"); }
 
 html, body {
-  font-family: "LabGrotesqueRegular", Helvetica, Arial, sans-serif; }
+  font-family: Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   /*color: #3d3d3d;*/
   margin-bottom: 1rem; }
@@ -6633,7 +6616,7 @@ form {
   margin-bottom: 2rem; }
 
 input, select {
-  font-family: "LabGrotesqueRegular", Helvetica, Arial, sans-serif; }
+  font-family:  Helvetica, Arial, sans-serif; }
 
 ::-moz-selection {
   background: rgba(0, 0, 0, 0.2);
@@ -6697,7 +6680,7 @@ input, select {
 
 .hero-banner p.block-title, .block .block-title {
   font-size: 3.2rem;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.05;
   margin-bottom: 0.8rem; }
@@ -6715,7 +6698,7 @@ input, select {
 .highlighted-copy {
   color: #89A2B6;
   font-weight: 500;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif; }
+  font-family:  Helvetica, Arial, sans-serif; }
 
 .image-60 {
   width: 60%;
@@ -6787,7 +6770,7 @@ input, select {
   min-width: 130px;
   align-self: flex-end;
   margin-bottom: 0;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
 .label:not(:last-child) {
@@ -6807,7 +6790,7 @@ input, select {
   color: #333132;
   border: solid 2px #C4D0DA;
   background-color: #FFFFFF;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin-bottom: 4px;
   text-decoration: none; }
@@ -6818,7 +6801,7 @@ input, select {
 
 .button {
   text-decoration: none;
-  font-family: "LabGrotesqueBold", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   min-width: 150px;
   border-width: 2px;
   border-color: #0a0a0a;
@@ -7023,7 +7006,7 @@ nav.top-nav {
     } }
 
 .hero-banner p.block-sub-title {
-  font-family: "LabGrotesqueRegular", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: normal; }
 
 
@@ -7190,7 +7173,7 @@ nav.top-nav {
   color: #333132; }
 
 .block-sub-title {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
 .block-title--alt {
@@ -7209,7 +7192,7 @@ nav.top-nav {
     min-width: 0;
     height: 2.25em;
     line-height: 1.5;
-    font-family: "LabGrotesqueRegular", Helvetica, Arial, sans-serif; }
+    font-family:  Helvetica, Arial, sans-serif; }
   .button-lockup .control {
     display: inline; }
 
@@ -7330,7 +7313,7 @@ nav.top-nav {
   width: 100%; }
 
 .tile-title {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #FFFFFF;
   font-size: 2.6rem;
@@ -7436,7 +7419,7 @@ nav.top-nav {
     .partners__left {
       text-align: left; } }
   .partners__left p {
-    font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.625rem;
     margin-bottom: 0; }
@@ -7512,14 +7495,14 @@ nav.top-nav {
 .staff-member__title {
   font-size: 1.3333333333rem;
   color: #78828C;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin-bottom: 0; }
 
 .staff-member__sector {
   font-size: 1.3333333333rem;
   color: #78828C;
-  font-family: "LabGrotesqueRegular", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
 /*------------------------------------* TESTIMONIAL
@@ -7532,7 +7515,7 @@ nav.top-nav {
 
 .testimonial__name {
   color: #89A2B6;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin-bottom: 0;
   font-size: 1rem; }
@@ -7550,7 +7533,7 @@ nav.top-nav {
 
 .news-article__title {
   font-size: 1.875rem;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #78828C; }
   @media screen and (min-width: 1024px) {
@@ -7559,7 +7542,7 @@ nav.top-nav {
 
 .news-article__info {
   color: #333132;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-bottom: 40px; }
 
@@ -7577,7 +7560,7 @@ nav.top-nav {
 
 .news-article__share {
   color: #333132;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   text-align: right;
@@ -7594,7 +7577,7 @@ nav.top-nav {
     margin-left: 0.5rem; }
 
 .news-sidebar__title {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
 
 .news-sidebar__section {
@@ -7609,13 +7592,13 @@ nav.top-nav {
   margin-bottom: 30px; }
 
 .recent-posts {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif; }
+  font-family:  Helvetica, Arial, sans-serif; }
   .recent-posts a {
     text-decoration: none; }
 
 .archive-listing {
   border-bottom: none;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500; }
   .archive-listing li {
     border-bottom: none; }
@@ -7643,12 +7626,12 @@ nav.top-nav {
     background-color: #FFFFFF; }
 
 .product-title {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin-bottom: 0; }
 
 .tech-list {
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1rem;
   margin-top: 3rem; }
@@ -7689,7 +7672,7 @@ form .column {
 
 .form-information {
   text-align: right;
-  font-family: "LabGrotesqueMedium", Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   font-weight: 500; }
   @media screen and (max-width: 768px) {
     .form-information {
@@ -10357,9 +10340,6 @@ html.remodal-is-locked {
 .lazyloaded {
   opacity: 1;
   transition: opacity 600ms; }
-
-/*# sourceMappingURL=maps/style.css.map */
-
 
 
 @media screen and (min-width: 768px) {
