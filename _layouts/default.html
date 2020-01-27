@@ -52,6 +52,29 @@
       }
     })});
     </script>
+    <script>
+  	function fbpOptOut() {
+  		document.cookie = 'itrk-fbp-disabled=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+  		alert("Facebook-Pixel wurde deaktiviert und wird nicht weiter verwendet.");
+  	}
+
+  if (
+  		((navigator.doNotTrack === '1') || (navigator.doNotTrack == 'yes') || (window.doNotTrack === '1') || (navigator.msDoNotTrack == 1)) ||
+  		(document.cookie.indexOf('itrk-fbp-disabled=true') > -1)
+  	) {
+  		console.log(atob("RmFjZWJvb2sgUGl4ZWwgaXN0IGRlYWt0aXZpZXJ0Lg=="));
+  	} else {
+  		!function(f,b,e,v,n,t,s) {
+  			if (f.fbq) return;
+  			n = f.fbq = function(){ n.callMethod? n.callMethod.apply(n,arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq=n;
+  			n.push = n; n.loaded = true; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = true; t.src=v;
+  			s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);
+  		}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+  		fbq('init', '514001156165628');
+  		fbq('track', 'PageView');
+  	}
+  	console.log(atob('RGF0ZW5zY2h1dHotU2tyaXB0IGJlcmVpdGdlc3RlbGx0IGR1cmNoIGRpZSBJVC1SZWNodC1LYW56bGVpIChodHRwczovL3d3dy5pdC1yZWNodC1rYW56bGVpLmRlKQ=='));
+  </script>
 
     <style>
         @media screen and (max-width: 700px) {
