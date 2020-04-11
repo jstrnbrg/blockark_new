@@ -3,8 +3,18 @@ title: BitBox02 Bitcoin-only edition
 description: Get BitBox02 Bitcoin-only edition for the smallest possible attack surface when only holding Bitcoin. Made in Switzerland.
 layout: default
 ---
-{% include header.html question="" description="" %}
-
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px"></h3>
+      </div>
+    </div>
+  </div>
+</header>
     <div class="container mt-3">
       <div class="columns">
         <div class="column">

@@ -1,16 +1,27 @@
 ---
 title: Steelwallet sheets
-description: This item contains two Steelwallet sheets without a puncher.  
+description: This item contains two Steelwallet sheets without a puncher.
 layout: default
 ---
-{% include header.html question="Sheets without puncher" description="How many do you need? One set is enough to store 24 seed words." %}
-
-    <div class="container mt-3">
-      <div class="columns">
-        <div class="column">
-          <div class="card m-2" style="width: auto;">
-          {% include products/sheets.html %}
-          </div>
-        </div>
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">{% t steelwallet.without_puncher %}</h3>
+          <p>{% t steelwallet.sheets_quantity %}</p>
       </div>
     </div>
+  </div>
+</header>
+<div class="container mt-3">
+  <div class="columns">
+    <div class="column">
+      <div class="card m-2" style="width: auto;">
+      {% include products/sheets.html %}
+      </div>
+    </div>
+  </div>
+</div>

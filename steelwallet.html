@@ -3,7 +3,18 @@ title: Steelwallet
 description: Steelwallet is a seed backup tool made of stainless steel that allows you to easily protect your cryptocurrency seed against natural forces such as fire and water.
 layout: default
 ---
-{% include header.html question="What is a Steelwallet?" description="" %}
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">{% t steelwallet.what_question %}</h3>
+      </div>
+    </div>
+  </div>
+</header>
 {% include banner.html %}
 <style>
   .helper {
@@ -19,7 +30,7 @@ img {
 </style>
 <div style="width: 100%; height: auto;  position: fixed; bottom: 0; right: 0; z-index: 100">
   <div id="wider" style=" margin-left: auto; margin-right: auto">
-    <a style="margin-top: 0.7em; margin-bottom: 0.7em; margin-left: auto; margin-right: auto; " class="button is-primary" href="{{ site.baseurl }}{% link options/steelwallet-puncher.html %}">Get yours!</a>
+    <a style="margin-top: 0.7em; margin-bottom: 0.7em; margin-left: auto; margin-right: auto; " class="button is-primary" href="{{ site.baseurl }}{% link options/steelwallet-puncher.html %}">{% t global.get_yours %}</a>
   </div>
 </div>
 
@@ -37,16 +48,16 @@ img {
 
 
 <div class="container">
-<img class="mobile-only" src="{{ '/img/Metallplatte_001fin.png' | relative_url }}">
+<img class="mobile-only" src="{{ '/img/Metallplatte_001fin.png' | prepend: site.baseurl_root }}">
 <div class="columns is-gapless">
-<div class="column" style="background-image: url({{ '/img/Metallplatte_001fin.png' | relative_url }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column" style="background-image: url({{ '/img/Metallplatte_001fin.png' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
 <div class="column">
 <div class="block has-text-white">
-<p class="block-sub-title">What is a Steelwallet?</p>
+<p class="block-sub-title">{% t steelwallet.what_question %}</p>
 <ul>
-<li>Steelwallet is an offline backup tool for storing your recovery seed.  </li>
-<li>It provides an additional security layer on top of your hardware wallet.</li>
-<li>With Steelwallet your seed is protected against fire, water, electrical-shocks, corrosion and pretty much any obstacles nature throws at it.</li>
+<li>{% t steelwallet.what.what1 %}</li>
+<li>{% t steelwallet.what.what2 %}</li>
+<li>{% t steelwallet.what.what3 %}</li>
 </ul>
 </div>
 </div>
@@ -58,15 +69,15 @@ img {
 <div class="columns is-gapless">
 <div class="column area--white">
 <div class="block">
-<p class="block-sub-title">What's in the Box?</p>
-<img class="mobile-only" src="{{ '/img/Metallplatte_008fin.png' | relative_url }}">
+<p class="block-sub-title">{% t steelwallet.box_question %}</p>
+<img class="mobile-only" src="{{ '/img/Metallplatte_008fin.png' | prepend: site.baseurl_root }}">
 <ul>
-<li>When you order a Steelwallet you will receive two laser engraved sheets made out of finest stainless A2 / ASIS 304 / SS304 steel, to punch your seed into. </li>
-<li> Also included is a metal punching pen which makes it easy to punch your seed into the sheets.</li>
+  <li>{% t steelwallet.box.box1 %}</li>
+  <li>{% t steelwallet.box.box2 %}</li>
 </ul>
 </div>
 </div>
-<div class="column area--white" style="background-image: url({{ '/img/Metallplatte_008fin.png' | relative_url }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column area--white" style="background-image: url({{ '/img/Metallplatte_008fin.png' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
 </div>
 </div>
 </div>
@@ -74,14 +85,14 @@ img {
 <div class="columns is-gapless">
 <div class="column">
 <div class="block has-text-white">
-<p class="block-sub-title">What can Steelwallet withstand?*</p>
+<p class="block-sub-title">{% t steelwallet.withstand_question %}</p>
 <ul>
-<li>Fire</li>
-<li>Water</li>
-<li>Corrosion</li>
-<li>Electricity</li>
-<li>Read the test <a target="_blank"href="https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test--part-ii-/">here</a> </li>
-<li style="font-size: 10px">*within the physical limits of grade SS304 stainless steel. </li>
+<li>{% t steelwallet.withstand.fire %}</li>
+<li>{% t steelwallet.withstand.water %}</li>
+<li>{% t steelwallet.withstand.corrosion %}</li>
+<li>{% t steelwallet.withstand.electricity %}</li>
+<li>{% t steelwallet.withstand.read %} <a target="_blank"href="https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test--part-ii-/">{% t steelwallet.withstand.test %}</a> </li>
+<li style="font-size: 10px">{% t steelwallet.withstand.limits %}</li>
 </ul>
 </div>
 </div>
@@ -96,19 +107,19 @@ img {
 <div class="columns is-gapless">
   <div class="column area--white">
     <div class="block area--white">
-    <h4 class="block-sub-title pb-2">How do I set up a Steelwallet?</h4>
+    <h4 class="block-sub-title pb-2">{% t steelwallet.setup_question %}</h4>
   </div>
 </div>
 </div>
 
 <section id="step1">
 <div class="columns is-gapless">
-  <div class="column area--white" style="background-image: url({{ '/img/Seed_1.png ' | relative_url }}); background-size: auto 70%; background-repeat: no-repeat; background-position: center center;"></div>
+  <div class="column area--white" style="background-image: url({{ '/img/Seed_1.png ' | prepend: site.baseurl_root }}); background-size: auto 70%; background-repeat: no-repeat; background-position: center center;"></div>
 <div class="column">
 <div class="block area--white">
-<p class="block-sub-title">Step 1: Have your seed/mnemonic at hand.</p>
-<img class="mobile-only" src="{{ '/img/Seed_1.png' | relative_url }}">
-<p>All words of your seed come from the BIP-39 word list. One property of that wordlist is that it is enough to know the first 4 letters of a word to identify it unanimously. That's why you can only punch the first 4 letters of each word on your Steelwallet.</p>
+<p class="block-sub-title">{% t steelwallet.setup.step1_title %}</p>
+<img class="mobile-only" src="{{ '/img/Seed_1.png' | prepend: site.baseurl_root }}">
+<p>{% t steelwallet.setup.step1 %}</p>
 </div>
 </div>
 </div>
@@ -116,12 +127,12 @@ img {
 
 <section id="step2">
 <div class="columns is-gapless">
-<div class="column area--white" style="background-image: url({{ '/img/Metall_dotted_white.jpeg ' | relative_url }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column area--white" style="background-image: url({{ '/img/Metall_dotted_white.jpeg ' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
 <div class="column">
 <div class="block area--white">
-<p class="block-sub-title">Step 2: Grab a marker and mark the holes you need to punch.</p>
-<img class="mobile-only" src="{{ '/img/Metall_dotted_white.jpeg ' | relative_url }}">
-<p>For example, if your first word is &quot;escape&quot;, make a mark where column 1 and row E cross. Continue with the first 4 letters of each word.</p>
+<p class="block-sub-title">{% t steelwallet.setup.step2_title %}</p>
+<img class="mobile-only" src="{{ '/img/Metall_dotted_white.jpeg ' | prepend: site.baseurl_root }}">
+<p>{% t steelwallet.setup.step2 %}</p>
 </div>
 </div>
 </div>
@@ -133,8 +144,8 @@ img {
 <div class="column area--white"></div>
 <div class="column">
 <div class="block area--white">
-<p class="block-sub-title">Step 3: Check that you&#x27;ve marked all spots correctly</p>
-<p>Before you use the automatic puncher you should verify that you've marked all spots correctly.</p>
+<p class="block-sub-title">{% t steelwallet.setup.step3_title %}</p>
+<p>{% t steelwallet.setup.step3 %}</p>
 </div>
 </div>
 </div>
@@ -143,12 +154,12 @@ img {
 
 <section class="bg--white" id="step4">
 <div class="columns is-gapless">
-<div class="column area--white" style="background-image: url({{ '/img/Metall_pu_fin.jpeg' | relative_url }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column area--white" style="background-image: url({{ '/img/Metall_pu_fin.jpeg' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
 <div class="column ">
 <div class="block area--white">
-<p class="block-sub-title">Step 4: Take the puncher and punch the spots that you&#x27;ve marked.</p>
-<img class="mobile-only" src="{{ '/img/Metall_pu_fin.jpeg' | relative_url }}">
-<p>After having punched the first 6 words, turn the sheet around and punch the next 6 words. Repeat until you&#x27;ve punched your whole seed</p>
+<p class="block-sub-title">{% t steelwallet.setup.step4_title %}</p>
+<img class="mobile-only" src="{{ '/img/Metall_pu_fin.jpeg' | prepend: site.baseurl_root }}">
+<p>{% t steelwallet.setup.step4 %}</p>
 </div>
 </div>
 </div>
@@ -159,8 +170,8 @@ img {
 <div class="column area--white"></div>
 <div class="column">
 <div class="block area--white">
-<p class="block-sub-title">Step 5: Store the Steelwallet sheets safely</p>
-<p>Once you have finished setting up your Steelwallet, make sure to store it in a safe location.</p>
+<p class="block-sub-title">{% t steelwallet.setup.step5_title %}</p>
+<p>{% t steelwallet.setup.step5 %}</p>
 </div>
 </div>
 </div>

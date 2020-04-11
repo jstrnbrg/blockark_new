@@ -2,50 +2,59 @@
 title: Hardware wallets - BitBox02
 layout: default
 ---
-{% include header.html question="Which BitBox02 edition do you want?" description="If you are not sure choose the Multi edition." %}
-
-    <div class="container mt-3">
-      <div class="columns">
-        <div class="column">
-          <div class="card m-2" style="width: auto;">
-            <div class="p-2">
-            <img src="{{ '/img/bb02_multi.png'  | relative_url }}" class="card-img-top" alt="" style="height:auto;width:auto">
-            </div>
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title">BitBox02 Multi edition</h3>
-              <li class="list-group-item">Bitcoin, Litecoin, Ethereum, ECR-20 tokens</li>
-              <li class="list-group-item">U2F support</li>
-              <li class="list-group-item">OLED Display</li>
-              <li class="list-group-item">MicroSD card backup</li>
-              <li class="list-group-item">Discrete design</li>
-              <li class="list-group-item">Touch sensors</li>
-              <li class="list-group-item">Developed and manufactured in Switzerland</li>
-              <li class="list-group-item">99 EUR</li>
-              <a href="{{ site.baseurl }}{% link products/bitbox02-multi.html %}" class="btn btn-primary mt-2">Next</a>
-            </div>
-          </div>
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">{% t bb02.edition_question %}</h3>
+          <p>{% t bb02.edition_note %}</p>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container mt-3">
+  <div class="columns">
+    <div class="column">
+      <div class="card m-2" style="width: auto;">
+        <div class="p-2">
+        <img src="{{ '/img/bb02_multi.png'  | prepend: site.baseurl_root }}" class="card-img-top" alt="" style="height:auto;width:auto">
         </div>
-        <div class="column" >
-          <div class="card m-2" style="width: auto;">
-            <div class="p-2">
-              <img src="{{ '/img/bb02_btc.png'  | relative_url }}" class="card-img-top" alt="" style="height:auto">
-            </div>
-            <div class="card-body d-flex flex-column">
-              <h3 class="card-title">BitBox02 Bitcoin-only edition</h3>
-              <li class="list-group-item">Bitcoin only</li>
-              <li class="list-group-item">Reduced attack surface for Bitcoin-only hodlers</li>
-              <li class="list-group-item">OLED Display</li>
-              <li class="list-group-item">MicroSD card backup</li>
-              <li class="list-group-item">Discrete design</li>
-              <li class="list-group-item">Touch sensors</li>
-              <li class="list-group-item">Developed and manufactured in Switzerland</li>
-              <li class="list-group-item">99 EUR</li>
-              <a href="{{ site.baseurl }}{% link products/bitbox02-btc.html %}" class="btn btn-primary  mt-2">Next</a>
-            </div>
-          </div>
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">{% t bb02.multi.title %}</h3>
+          <li class="list-group-item">{% t bb02.multi.coins %}</li>
+          <li class="list-group-item">{% t bb02.multi.feature %}</li>
+          <li class="list-group-item">{% t bb02.multi.display %}</li>
+          <li class="list-group-item">{% t bb02.multi.sd %}</li>
+          <li class="list-group-item">{% t bb02.multi.design %}</li>
+          <li class="list-group-item">{% t bb02.multi.touch %}</li>
+          <li class="list-group-item">{% t bb02.multi.origin %}</li>
+          <li class="list-group-item">{% t bb02.multi.price %}</li>
+          <a href="{{ site.baseurl }}{% link products/bitbox02-multi.html %}" class="btn btn-primary mt-2">{% t global.next %}</a>
         </div>
       </div>
-      {% include bundle.html %}
-
-
     </div>
+    <div class="column" >
+      <div class="card m-2" style="width: auto;">
+        <div class="p-2">
+          <img src="{{ '/img/bb02_btc.png'  | prepend: site.baseurl_root }}" class="card-img-top" alt="" style="height:auto">
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">{% t bb02.btc.title %}</h3>
+          <li class="list-group-item">{% t bb02.btc.coins %}</li>
+          <li class="list-group-item">{% t bb02.btc.feature %}</li>
+          <li class="list-group-item">{% t bb02.btc.display %}</li>
+          <li class="list-group-item">{% t bb02.btc.sd %}</li>
+          <li class="list-group-item">{% t bb02.btc.design %}</li>
+          <li class="list-group-item">{% t bb02.btc.touch %}</li>
+          <li class="list-group-item">{% t bb02.btc.origin %}</li>
+          <li class="list-group-item">{% t bb02.btc.price %}</li>
+          <a href="{{ site.baseurl }}{% link products/bitbox02-btc.html %}" class="btn btn-primary  mt-2">{% t global.next %}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include bundle.html %}
+</div>

@@ -3,14 +3,25 @@ title: Steelwallet & BitBox02 bundle
 description: This bundle contains one Steelwallet set and a BitBox02 hardware wallet giving you great protection for your coins at an affordable price. Save money compared to buying the BitBox02 and Steelwallet separately.
 layout: default
 ---
-{% include header.html question="Please choose the BitBox02 edition" description="If you are not sure choose 'Multi-edition'" %}
-
-    <div class="container mt-3">
-      <div class="columns">
-        <div class="column">
-          <div class="card m-2" style="width: auto;">
-          {% include products/bundle.html %}
-          </div>
-        </div>
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">{% t bundle.edition_question %}</h3>
+          <p>{% t bundle.edition_note %}</p>
       </div>
     </div>
+  </div>
+</header>
+<div class="container mt-3">
+  <div class="columns">
+    <div class="column">
+      <div class="card m-2" style="width: auto;">
+      {% include products/bundle.html %}
+      </div>
+    </div>
+  </div>
+</div>

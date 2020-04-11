@@ -1,0 +1,123 @@
+global:
+  german: Deutsch
+  english: English
+  continue: Continue
+  confirm: Yes
+  deny: No
+  back: Back
+  next: Next
+  recommended: Recommended
+  title: What are you looking for?
+  get_yours: Get yours!
+
+footer:
+  contact: Contact
+  email: Email
+  legal: Legal
+  cancellation: Cancellation
+  privacy: Privacy Policy
+  shipping: Shipping
+  terms: Terms
+  imprint: Imprint
+
+steelwallet:
+  title: Steelwallet
+  sub_title: Metal backup tool
+  description: Allows you to easily punch your seed into sheets of stainless steel in order to protect your seed against fire, water and other natural disasters.
+  seo_description_set: This Steelwallet set contains 2x stainless steel sheets which is enough for 24 seed words plus an automatic puncher.
+  pricing: From 54 EUR
+  how_to: How do I use a Steelwallet?
+  puncher_question: Do you need a puncher?
+  puncher_needed: I need a puncher.
+  extra_charge: +5 €
+  no_extra_charge: +0 €
+  no_puncher_needed: I have a puncher or will get one myself.
+  withpuncher: Sheets with puncher
+  without_puncher: Sheets without puncher
+  sheets_quantity: How many do you need? One set is enough to store 24 seed words.
+  what_question: What is a Steelwallet?
+  what:
+    what1: Steelwallet is an offline backup tool for storing your recovery seed.
+    what2: It provides an additional security layer on top of your hardware wallet.
+    what3: With Steelwallet your seed is protected against fire, water, electrical-shocks, corrosion and pretty much any obstacles nature throws at it.
+  box_question: What's in the Box?
+  box:
+    box1: When you order a Steelwallet you will receive two laser engraved sheets made out of finest stainless A2 / ASIS 304 / SS304 steel, to punch your seed into.
+    box2: Also included is a metal punching pen which makes it easy to punch your seed into the sheets.
+  withstand_question: "What can Steelwallet withstand?*"
+  withstand:
+    fire: Fire
+    water: Water
+    corrosion: Corrosion
+    electricity: Electricity
+    read: Read the
+    test: test
+    limits: "*within the physical limits of grade SS304 stainless steel."
+  setup_question: How do I set up a Steelwallet?
+  setup:
+    step1_title: "Step 1: Have your seed/mnemonic at hand."
+    step1: All words of your seed come from the BIP-39 word list. One property of that wordlist is that it is enough to know the first 4 letters of a word to identify it unanimously. That's why you can only punch the first 4 letters of each word on your Steelwallet.
+    step2_title: "Step 2: Grab a marker and mark the holes you need to punch."
+    step2: For example, if your first word is "escape", make a mark where column 1 and row E cross. Continue with the first 4 letters of each word.
+    step3_title: "Step 3: Check that you've marked all spots correctly"
+    step3: Before you use the automatic puncher you should verify that you've marked all spots correctly.
+    step4_title: "Step 4: Take the puncher and punch the spots that you've marked."
+    step4: After having punched the first 6 words, turn the sheet around and punch the next 6 words. Repeat until you've punched your whole seed.
+    step5_title: "Step 5: Store the Steelwallet sheets safely"
+    step5: Once you have finished setting up your Steelwallet, make sure to store it in a safe location.
+  faq:
+    title: "Steelwallet FAQs:"
+    question1: What types of private keys can be stored using Steelwallet?
+    answer1: Steelwallet supports the BIP-39 standard which allows you to store 12,18 and 24 word seeds on your Steelwallet. The words on the BIP-39 word list are chosen so that there is only one possible word if you know the first four letters of that word. It is impossible that there are multiple words that start with the same four letters. That’s why you only need (and only can) punch the first 4 letters of word of your seed onto your Steelwallet.
+    question2: What happens if my Steelwallet gets stolen?
+    answer2: For obvious reason you should try to avoid that at all cost. If it contrary to expectations gets stolen anyway you should immediately withdraw your funds from your hardware wallet and transfer it to a new one that has a different seed. We recommend using a dedicated hardware wallet like BitBox, Trezor, Ledger etc.  If you don’t have one at hand when you need to transfer your funds (in case of a stolen Steelwallet then we recommend transferring your funds to a software wallet and send them onto a hardware wallet as soon as you have one. You may find a more detailed version of how to do so at the webpage of your device manufacturer.
+    question3: How do I recover my data protected by Steelwallet?
+    answer3: In case you need to recover your wallet with your seed which is stored on your Steelwallet, you should do so without leaking it. That means that you should not type in your seed into a software-wallet on your computer or smartphone or any other device which is connected to the internet. By doing so you risk leaking your seed and thereby the theft of your funds due to the likelihood of viruses, key-loggers and malware installed on such devices.  We recommend typing in your seed on a hardware-wallet like BitBox, Trezor, Legder....
+    question4: Where should I store my Steelwallet and where should I better not keep it?
+    answer4: You should keep it in a secure place only you know about. This can be anything from a safe, to a bank locker or bury it in your backyard. Anything is possible, since it’s made out of stainless steel it is very resistant to weather conditions.  For increases security we recommend you to split your Steelwallet and store the plates in different locations. That ensures that even if one sheet is found, the attacker does not have access to your funds.  However, you should still transfer  your funds to a new wallet if you know that one of your sheets has been compromised.
+    question5: What happens if the company behind Steelwallet shuts their doors?
+    answer5: Although we hope that won’t ever happen, nothing would change for you. Your seed, still is and will be safely stored on your Steelwallet for a very long time and you could get new sheets made yourself.
+    question6: Are there any tests on how resistant Steelwallet is?
+    answer6: "Yes, Jameson Lopp published a great article, comparing a wide variety of tools. He comes to the following conclusion: 'With these considerations in mind, I’d suggest that Blockplate and Steelwallet seem to be the most robust and simple options.' The article can be found "
+    answer6b: here
+
+bb02:
+  title: BitBox02
+  sub_title: Hardware wallet
+  description: Swiss-made hardware wallets. Fully open-source with dual-chip architecture to protect your coins while making it easy to manage them.
+  pricing: From 99 EUR
+  how_to: How do I use a BitBox02?
+  edition_question: Which BitBox02 edition do you want?
+  edition_note: If you are not sure choose the Multi edition.
+  multi:
+    title: BitBox02 Multi edition
+    coins: Bitcoin, Litecoin, Ethereum, ECR-20 tokens
+    feature: U2F support
+    display: OLED Display
+    sd: MicroSD card backup
+    design: Discrete design
+    touch: Touch sensors
+    origin: Developed and manufactured in Switzerland
+    price: 99 EUR
+  btc:
+    title: BitBox02 Bitcoin-only edition
+    coins: Bitcoin only
+    feature: Reduced attack surface for Bitcoin-only hodlers
+    display: OLED Display
+    sd: MicroSD card backup
+    design: Discrete design
+    touch: Touch sensors
+    origin: Developed and manufactured in Switzerland
+    price: 99 EUR
+
+bundle:
+  title: Starter set bundle
+  contents: "Cointains: 1x BitBox02 hardware wallet and 1x Steelwallet metal backup tool"
+  description: Manage your cryptocurrency securely on the BitBox02 and use the Steelwallet to securely store the wallet backup on stainless steel in order to protect your seed against fire, water and other natural disasters.
+  pricing: From 139 EUR
+  edition_question: Please choose the BitBox02 edition
+  edition_note: If you are not sure choose 'Multi-edition'
+
+banner:
+  text: For all orders paid in Bitcoin (BTC) we grant a 10% discount.
+  contact: Contact us before you order to get the discount code

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1">
 
-    <title>{{ page.title }}</title>
+    <title>{% t page.title %}</title>
     <meta name="description" content="{{ page.description }}">
 
 
@@ -12,20 +12,20 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:image" content="{{ page.image | relative_url }}" />
+    <meta property="og:image" content="{{ page.image | prepend: site.baseurl_root }}" />
     <meta property="og:image:type" content="image/png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@Blockark_GmbH" />
 
-    <link rel="stylesheet" href='{{"css/custom_bulma_v7.css" | relative_url }}'>
+    <link rel="stylesheet" href='{{"/css/custom_bulma_v7.css" | prepend: site.baseurl_root  }}'>
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-    <link rel="icon" type="image/png" href='{{"img/fav/SW_fav_32x32.png"| relative_url }}' sizes="32x32" />
-    <link rel="icon" type="image/png" href='{{"img/fav/SW_fav_16x16.png"| relative_url }}' sizes="16x16" />
-    <link rel="icon" type="image/png" href='{{"img/fav/SW_fav_128x128.png"| relative_url }}' sizes="128x128" />
+    <link rel="icon" type="image/png" href='{{"/img/fav/SW_fav_32x32.png" | prepend: site.baseurl_root  }}' sizes="32x32" />
+    <link rel="icon" type="image/png" href='{{"/img/fav/SW_fav_16x16.png" | prepend: site.baseurl_root  }}' sizes="16x16" />
+    <link rel="icon" type="image/png" href='{{"/img/fav/SW_fav_128x128.png" | prepend: site.baseurl_root  }}' sizes="128x128" />
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 
@@ -76,6 +76,18 @@
   	console.log(atob('RGF0ZW5zY2h1dHotU2tyaXB0IGJlcmVpdGdlc3RlbGx0IGR1cmNoIGRpZSBJVC1SZWNodC1LYW56bGVpIChodHRwczovL3d3dy5pdC1yZWNodC1rYW56bGVpLmRlKQ=='));
   </script>
 
+  <script>
+  function goBack() {
+    const url = "blockark.de"
+    if(document.referrer.indexOf(url) >= 0) {
+      window.history.back();
+    }
+    else {
+      window.location.href = '/';
+    }
+  }
+  </script>
+
     <style>
         @media screen and (max-width: 700px) {
             #key-mobile {
@@ -111,9 +123,6 @@
 <body style="background-color: #333132">
   <noscript class="noscript"></noscript>
 
-
-
-
   {{ content }}
 
   <footer id="footer">
@@ -121,32 +130,32 @@
       <div class="columns">
         <div class="column">
           <nav class="policies-nav footer-nav">
-            <h4 class="has-text-white">Contact</h4>
+            <h4 class="has-text-white">{% t footer.contact %}</h4>
             <ul>
               <li>
-                <a class="has-text-white" href="mailto:support@blockark.de">Email</a>
+                <a class="has-text-white" href="mailto:support@blockark.de">{% t footer.email %}</a>
               </li>
             </ul>
           </nav>
         </div>
         <div class="column" >
           <nav class="policies-nav footer-nav">
-            <h4 class="has-text-white">Legal</h4>
+            <h4 class="has-text-white">{% t footer.legal %}</h4>
             <ul>
               <li>
-                <a class="has-text-white" href="https://shop.blockark.de/pages/cancellation">Cancellation</a>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/cancellation">{% t footer.cancellation %}</a>
               </li>
               <li>
-                <a class="has-text-white" href="https://shop.blockark.de/pages/privacy">Privacy Policy</a>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/privacy">{% t footer.privacy %}</a>
               </li>
                  <li>
-                <a class="has-text-white" href="https://shop.blockark.de/pages/shipping">Shipping</a>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/shipping">{% t footer.shipping %}</a>
               </li>
               <li>
-                <a class="has-text-white" href="https://shop.blockark.de/pages/terms">Terms</a>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/terms">{% t footer.terms %}</a>
               </li>
               <li>
-                <a class="has-text-white" href="https://shop.blockark.de/pages/legal-notice">Imprint</a><br>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/legal-notice">{% t footer.imprint %}</a><br>
               </li>
             </ul>
           </nav>
@@ -157,7 +166,7 @@
   </footer>
 
   <!-- JavaScript -->
-  <script src='{{ "js/jquery-3.1.1.min.js" | relative_url }}'></script>
-  <script src='{{ "js/custom.js" | relative_url }}'></script>
+  <script src='{{ "/js/jquery-3.1.1.min.js" | prepend: site.baseurl_root  }}'></script>
+  <script src='{{ "/js/custom.js" | prepend: site.baseurl_root  }}'></script>
   </body>
 </html>
