@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1">
+
+    <title></title>
+    <meta name="description" content="Steelwallet is a seed backup tool made of stainless steel that allows you to easily protect your cryptocurrency seed against natural forces such as fire and water.">
+
+
+    <meta property="og:url" content="https://blockark.de" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Steelwallet" />
+    <meta property="og:description" content="Steelwallet is a seed backup tool made of stainless steel that allows you to easily protect your cryptocurrency seed against natural forces such as fire and water." />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Blockark_GmbH" />
+
+    <link rel="stylesheet" href='/css/custom_bulma_v7.css'>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <link rel="icon" type="image/png" href='/img/fav/SW_fav_32x32.png' sizes="32x32" />
+    <link rel="icon" type="image/png" href='/img/fav/SW_fav_16x16.png' sizes="16x16" />
+    <link rel="icon" type="image/png" href='/img/fav/SW_fav_128x128.png' sizes="128x128" />
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#343c66",
+          "text": "#cfcfe8"
+        },
+        "button": {
+          "background": "transparent",
+          "border": "#f00b0b",
+          "text": "#f00b0b"
+        }
+      },
+      "position": "bottom-left",
+      "content": {
+        "message": "This website uses cookies. By continuing to use this website you agree to the use of cookies. For further information visit our",
+        "dismiss": "I agree",
+        "link": "Privacy Policy",
+        "href": "https://shop.blockark.de/pages/privacy"
+      }
+    })});
+    </script>
+    <script>
+  	function fbpOptOut() {
+  		document.cookie = 'itrk-fbp-disabled=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+  		alert("Facebook-Pixel wurde deaktiviert und wird nicht weiter verwendet.");
+  	}
+
+  if (
+  		((navigator.doNotTrack === '1') || (navigator.doNotTrack == 'yes') || (window.doNotTrack === '1') || (navigator.msDoNotTrack == 1)) ||
+  		(document.cookie.indexOf('itrk-fbp-disabled=true') > -1)
+  	) {
+  		console.log(atob("RmFjZWJvb2sgUGl4ZWwgaXN0IGRlYWt0aXZpZXJ0Lg=="));
+  	} else {
+  		!function(f,b,e,v,n,t,s) {
+  			if (f.fbq) return;
+  			n = f.fbq = function(){ n.callMethod? n.callMethod.apply(n,arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq=n;
+  			n.push = n; n.loaded = true; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = true; t.src=v;
+  			s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);
+  		}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+  		fbq('init', '127697965089473');
+  		fbq('track', 'PageView');
+  	}
+  	console.log(atob('RGF0ZW5zY2h1dHotU2tyaXB0IGJlcmVpdGdlc3RlbGx0IGR1cmNoIGRpZSBJVC1SZWNodC1LYW56bGVpIChodHRwczovL3d3dy5pdC1yZWNodC1rYW56bGVpLmRlKQ=='));
+  </script>
+
+  <script>
+  function goBack() {
+    const url = "blockark.de"
+    if(document.referrer.indexOf(url) >= 0) {
+      window.history.back();
+    }
+    else {
+      window.location.href = '/';
+    }
+  }
+  </script>
+
+    <style>
+        @media screen and (max-width: 700px) {
+            #key-mobile {
+                display: none; !important;
+                }
+            }
+        @media screen and (min-width: 700px) {
+            #wider {
+                width: 10%; !important;
+                }
+            }
+    </style>
+
+    <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://blockark.innocraft.cloud/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '4']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/blockark.innocraft.cloud/piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+
+
+  </head>
+<body style="background-color: #333132">
+  <noscript class="noscript"></noscript>
+
+  <header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">Back</button>
+      
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">What is a Steelwallet?</h3>
+      </div>
+    </div>
+  </div>
+</header>
+<div style="background-color:  #E11A27;">
+  <p class="text-center text-white p-2"><strong>For all orders paid in Bitcoin (BTC) we grant a 10% discount. <a href="mailto:info@blockark.de?subject=Bitcoin discount code&body=Hi, I would like to pay with Bitcoin, please send me the 10% discount code. Thanks" class="text-light">Contact us before you order to get the discount code</a></strong></p>
+</div>
+
+<style>
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+    min-width: 100px;
+}
+</style>
+<div style="width: 100%; height: auto;  position: fixed; bottom: 0; right: 0; z-index: 100">
+  <div id="wider" style=" margin-left: auto; margin-right: auto">
+    <a style="margin-top: 0.7em; margin-bottom: 0.7em; margin-left: auto; margin-right: auto; " class="button is-primary" href="/options/steelwallet-puncher/">Get yours!</a>
+  </div>
+</div>
+
+<div class="container">
+<div class="card-small">
+<div class="columns is-gapless">
+<div class="column mt-4 mb-2">
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/JhLdNfFhW4k' frameborder='0' allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container">
+<img class="mobile-only" src="/img/Metallplatte_001fin.png">
+<div class="columns is-gapless">
+<div class="column" style="background-image: url(/img/Metallplatte_001fin.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column">
+<div class="block has-text-white">
+<p class="block-sub-title">What is a Steelwallet?</p>
+<ul>
+<li>Steelwallet is an offline backup tool for storing your recovery seed.</li>
+<li>It provides an additional security layer on top of your hardware wallet.</li>
+<li>With Steelwallet your seed is protected against fire, water, electrical-shocks, corrosion and pretty much any obstacles nature throws at it.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="card-small">
+<div class="columns is-gapless">
+<div class="column area--white">
+<div class="block">
+<p class="block-sub-title">What's in the Box?</p>
+<img class="mobile-only" src="/img/Metallplatte_008fin.png">
+<ul>
+  <li>When you order a Steelwallet you will receive two laser engraved sheets made out of finest stainless A2 / ASIS 304 / SS304 steel, to punch your seed into.</li>
+  <li>Also included is a metal punching pen which makes it easy to punch your seed into the sheets.</li>
+</ul>
+</div>
+</div>
+<div class="column area--white" style="background-image: url(/img/Metallplatte_008fin.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="columns is-gapless">
+<div class="column">
+<div class="block has-text-white">
+<p class="block-sub-title">What can Steelwallet withstand?*</p>
+<ul>
+<li>Fire</li>
+<li>Water</li>
+<li>Corrosion</li>
+<li>Electricity</li>
+<li>Read the <a target="_blank"href="https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test--part-ii-/">test</a> </li>
+<li style="font-size: 10px">*within the physical limits of grade SS304 stainless steel.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="columns is-gapless"">
+<div class="card-small mb-2">
+
+<div class="columns is-gapless">
+  <div class="column area--white">
+    <div class="block area--white">
+    <h4 class="block-sub-title pb-2">How do I set up a Steelwallet?</h4>
+  </div>
+</div>
+</div>
+
+<section id="step1">
+<div class="columns is-gapless">
+  <div class="column area--white" style="background-image: url(/img/Seed_1.png ); background-size: auto 70%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column">
+<div class="block area--white">
+<p class="block-sub-title">Step 1: Have your seed/mnemonic at hand.</p>
+<img class="mobile-only" src="/img/Seed_1.png">
+<p>All words of your seed come from the BIP-39 word list. One property of that wordlist is that it is enough to know the first 4 letters of a word to identify it unanimously. That's why you can only punch the first 4 letters of each word on your Steelwallet.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="step2">
+<div class="columns is-gapless">
+<div class="column area--white" style="background-image: url(/img/Metall_dotted_white.jpeg ); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column">
+<div class="block area--white">
+<p class="block-sub-title">Step 2: Grab a marker and mark the holes you need to punch.</p>
+<img class="mobile-only" src="/img/Metall_dotted_white.jpeg ">
+<p>For example, if your first word is "escape", make a mark where column 1 and row E cross. Continue with the first 4 letters of each word.</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="bg--white" id="step3">
+<div class="columns is-gapless">
+<div class="column area--white"></div>
+<div class="column">
+<div class="block area--white">
+<p class="block-sub-title">Step 3: Check that you've marked all spots correctly</p>
+<p>Before you use the automatic puncher you should verify that you've marked all spots correctly.</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="bg--white" id="step4">
+<div class="columns is-gapless">
+<div class="column area--white" style="background-image: url(/img/Metall_pu_fin.jpeg); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+<div class="column ">
+<div class="block area--white">
+<p class="block-sub-title">Step 4: Take the puncher and punch the spots that you've marked.</p>
+<img class="mobile-only" src="/img/Metall_pu_fin.jpeg">
+<p>After having punched the first 6 words, turn the sheet around and punch the next 6 words. Repeat until you've punched your whole seed.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="bg--white" id="step5">
+<div class="columns is-gapless">
+<div class="column area--white"></div>
+<div class="column">
+<div class="block area--white">
+<p class="block-sub-title">Step 5: Store the Steelwallet sheets safely</p>
+<p>Once you have finished setting up your Steelwallet, make sure to store it in a safe location.</p>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+</div>
+</div>
+
+
+
+  <div class="container">
+    <div class="card">
+      <div class="block__inner">
+      <section class="section faq-section" id="faq-bitbox">
+        <h2>Steelwallet FAQs:</h2>
+        <ul class="accordian">
+          <li>
+            <a class="accordian-toggle has-text-black" href="javascript:void(0);">What types of private keys can be stored using Steelwallet?</a>
+            <div class="inner">
+              <p>Steelwallet supports the BIP-39 standard which allows you to store 12,18 and 24 word seeds on your Steelwallet. The words on the BIP-39 word list are chosen so that there is only one possible word if you know the first four letters of that word. It is impossible that there are multiple words that start with the same four letters. That’s why you only need (and only can) punch the first 4 letters of word of your seed onto your Steelwallet.</p>
+            </div>
+          </li>
+          <li>
+            <a class="accordian-toggle has-text-black" href="javascript:void(0);">What happens if my Steelwallet gets stolen?</a>
+            <div class="inner">
+              <p>For obvious reason you should try to avoid that at all cost. If it contrary to expectations gets stolen anyway you should immediately withdraw your funds from your hardware wallet and transfer it to a new one that has a different seed. We recommend using a dedicated hardware wallet like BitBox, Trezor, Ledger etc.  If you don’t have one at hand when you need to transfer your funds (in case of a stolen Steelwallet then we recommend transferring your funds to a software wallet and send them onto a hardware wallet as soon as you have one. You may find a more detailed version of how to do so at the webpage of your device manufacturer.</p>
+            </div>
+          </li>
+          <li>
+            <a class="accordian-toggle has-text-black" href="javascript:void(0);">How do I recover my data protected by Steelwallet?</a>
+            <div class="inner">
+              <p>In case you need to recover your wallet with your seed which is stored on your Steelwallet, you should do so without leaking it. That means that you should not type in your seed into a software-wallet on your computer or smartphone or any other device which is connected to the internet. By doing so you risk leaking your seed and thereby the theft of your funds due to the likelihood of viruses, key-loggers and malware installed on such devices.  We recommend typing in your seed on a hardware-wallet like BitBox, Trezor, Legder....</p>
+            </div>
+          </li>
+          <li>
+            <a class="accordian-toggle has-text-black" href="javascript:void(0);">Where should I store my Steelwallet and where should I better not keep it?</a>
+            <div class="inner">
+              <p>You should keep it in a secure place only you know about. This can be anything from a safe, to a bank locker or bury it in your backyard. Anything is possible, since it’s made out of stainless steel it is very resistant to weather conditions.  For increases security we recommend you to split your Steelwallet and store the plates in different locations. That ensures that even if one sheet is found, the attacker does not have access to your funds.  However, you should still transfer  your funds to a new wallet if you know that one of your sheets has been compromised.</p>
+            </div>
+          </li>
+          <li>
+            <a class="accordian-toggle has-text-black" href="javascript:void(0);">What happens if the company behind Steelwallet shuts their doors?</a>
+            <div class="inner">
+              <p>Although we hope that won’t ever happen, nothing would change for you. Your seed, still is and will be safely stored on your Steelwallet for a very long time and you could get new sheets made yourself.</p>
+            </div>
+          </li>
+          <li>
+            <a class="accordian-toggle has-text-black" href="javascript:void(0);">Are there any tests on how resistant Steelwallet is?</a>
+            <div class="inner">
+              <p>Yes, Jameson Lopp published a great article, comparing a wide variety of tools. He comes to the following conclusion: 'With these considerations in mind, I’d suggest that Blockplate and Steelwallet seem to be the most robust and simple options.' The article can be found  <a target="_blank" href="https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test--part-ii-/">here</a></p>
+          </li>
+        </ul>
+      </section>
+    </div>
+    </div>
+  </div>
+
+
+
+  <footer id="footer">
+    <div class="container p-4">
+      <div class="columns">
+        <div class="column">
+          <nav class="policies-nav footer-nav">
+            <h4 class="has-text-white">Contact</h4>
+            <ul>
+              <li>
+                <a class="has-text-white" href="mailto:support@blockark.de">Email</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="column" >
+          <nav class="policies-nav footer-nav">
+            <h4 class="has-text-white">Legal</h4>
+            <ul>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/cancellation">Cancellation</a>
+              </li>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/privacy">Privacy Policy</a>
+              </li>
+                 <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/shipping">Shipping</a>
+              </li>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/terms">Terms</a>
+              </li>
+              <li>
+                <a class="has-text-white" href="https://shop.blockark.de/pages/legal-notice">Imprint</a><br>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src='/js/jquery-3.1.1.min.js'></script>
+  <script src='/js/custom.js'></script>
+  </body>
+</html>
