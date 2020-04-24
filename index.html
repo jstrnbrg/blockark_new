@@ -1,6 +1,6 @@
 ---
 title: Blockark
-description: descriptions.blockark 
+description: descriptions.blockark
 layout: default
 ---
 <header style="background-color: #fff">
@@ -9,11 +9,15 @@ layout: default
       {% if page.title != "Blockark" %}
       <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
       {% endif %}
-      <div class="column is-four-fifths">
-          <h3 style="margin-top:8px">{% t global.title %}</h3>
+      <div style="width:80%" class="p-2 pt-3">
+          <h3 style="margin-top:8px; font-size: 26px">{% t global.title %}</h3>
       </div>
-      <div class="column is-one-fifth text-right">
-        <a href="{{ site.baseurl }}/de/"><img src="https://www.countryflags.io/DE/flat/64.png"></a>
+      <div style="width:20%" class="p-2  text-right">
+        {% if site.lang == "de" %}
+           <a href="{{ site.baseurl_root }}{{ page.url}}"><img src="https://www.countryflags.io/GB/flat/64.png"></a>
+        {% else %}
+           <a href="{{ site.baseurl_root }}/de{{ page.url}}"><img src="https://www.countryflags.io/DE/flat/64.png"></a>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -24,7 +28,7 @@ layout: default
       {% include bundle.html %}
       <div class="columns">
         <div class="column" >
-          <div class="card m-2" style="width: auto;">
+          <div class="card" style="width: auto;">
             <img class="card-img-top" data-wow-delay=".3s" src="{{ '/img/Metall_pu_fin.jpeg '| prepend: site.baseurl_root }}" alt="" style="height:auto" />
             <div class="card-body d-flex flex-column">
               <h3 class="card-title">{% t steelwallet.title %}</h3>
@@ -37,7 +41,7 @@ layout: default
           </div>
         </div>
         <div class="column">
-          <div class="card m-2" style="width: auto;">
+          <div class="card" style="width: auto;">
             <img class="card-img-top" data-wow-delay=".3s" src="{{ '/img/02_bb02_laptop-thumbnail-1080x1080.png ' | prepend: site.baseurl_root  }}" alt="" style="height:auto" />
             <div class="card-body d-flex flex-column">
               <h3 class="card-title">{% t bb02.title %}</h3>
