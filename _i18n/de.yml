@@ -1,123 +1,130 @@
 global:
   german: Deutsch
   english: English
-  continue: Continue
-  confirm: Yes
-  deny: No
-  back: Back
-  next: Next
-  recommended: Recommended
+  continue: Weiter
+  confirm: Ja
+  deny: Nein
+  back: Zurück
+  next: Weiter
+  recommended: Empfohlen
   title: Was suchen Sie?
-  get_yours: Get yours!
+  get_yours: Hol dir deins!
 
 footer:
-  contact: Contact
+  contact: Kontakt
   email: Email
   legal: Legal
-  cancellation: Cancellation
-  privacy: Privacy Policy
-  shipping: Shipping
-  terms: Terms
-  imprint: Imprint
+  cancellation: Widerruf
+  privacy: Datenschutz
+  shipping: Versand
+  terms: Allgemeine Geschäftsbedingungen
+  imprint: Impressum
 
 steelwallet:
   title: Steelwallet
   sub_title: Metal backup tool
-  description: Allows you to easily punch your seed into sheets of stainless steel in order to protect your seed against fire, water and other natural disasters.
-  seo_description_set: This Steelwallet set contains 2x stainless steel sheets which is enough for 24 seed words plus an automatic puncher.
+  description: Mit Steelwallet kannst du deinen Seed mit Leichtigkeit in Edelstahl verewigen, um ihn so vor Feuer, Wasser und anderen Schäden zu schützen.
+  seo_description_set: Das Steelwallet Set enthält 2x gravierte Edelstahlplatten was für 24 Seed-Wörter ausreicht und einen automatischen Körner.
   pricing: From 54 EUR
-  how_to: How do I use a Steelwallet?
-  puncher_question: Do you need a puncher?
-  puncher_needed: I need a puncher.
+  how_to: Wie verwende ich ein Steelwallet?
+  puncher_question: Brauchst du einen Körner?
+  puncher_needed: Ja, ich brauche einen Körner.
   extra_charge: +5 €
   no_extra_charge: +0 €
-  no_puncher_needed: I have a puncher or will get one myself.
-  withpuncher: Sheets with puncher
-  without_puncher: Sheets without puncher
-  sheets_quantity: How many do you need? One set is enough to store 24 seed words.
-  what_question: What is a Steelwallet?
+  no_puncher_needed: Nein, ich habe schon einen Körner.
+  withpuncher: Platten mit Körner.
+  without_puncher: Platten ohne  Körner.
+  sheets_quantity: Wie viele Sets brauchst du? Ein Set reicht für 24 Seed Wörter.
+  what_question: Was ist ein Steelwallet?
   what:
-    what1: Steelwallet is an offline backup tool for storing your recovery seed.
-    what2: It provides an additional security layer on top of your hardware wallet.
-    what3: With Steelwallet your seed is protected against fire, water, electrical-shocks, corrosion and pretty much any obstacles nature throws at it.
-  box_question: What's in the Box?
+    what1: Steelwallet ist ein offline Backup-tool zur Sicherung deines Seeds.
+    what2: Es gibt dir zusätzlich zu deinem Hardware Wallet Sicherheit, dass dein Seed sicher aufbewahrt ist.
+    what3: Mit Steelwallet ist dein Seed gegen Feuer, Wasser, Elektrizität, Rost und andere Schäden geschützt.
+  box_question: Was ist in der Verpackung?
   box:
-    box1: When you order a Steelwallet you will receive two laser engraved sheets made out of finest stainless A2 / ASIS 304 / SS304 steel, to punch your seed into.
-    box2: Also included is a metal punching pen which makes it easy to punch your seed into the sheets.
-  withstand_question: "What can Steelwallet withstand?*"
+    box1: Wenn du ein Steelwallet bestellst erhältst du zwei laser-gravierte Edelstahlplatten (A2 / ASIS 304 / SS304) in welche du deinen Seed verewigst.
+    box2: Zusätzlich bekommst du einen Körner, mit dem du deinen Seed ganz einfach in die Edelstahlplatten stanzen kannst.
+  withstand_question: Was kann Steelwallet widerstehen?*
   withstand:
-    fire: Fire
-    water: Water
-    corrosion: Corrosion
-    electricity: Electricity
-    read: Read the
-    test: test
-    limits: "*within the physical limits of grade SS304 stainless steel."
-  setup_question: How do I set up a Steelwallet?
+    fire: Feuer
+    water: Wasser
+    corrosion: Rost
+    electricity: Elektrizität
+    read: Ließ den
+    test: Test
+    limits: "*innerhalb der physischen Grenzen von SS304 Edelstahl."
+  setup_question: Wie richte ich ein Steelwallet ein?
   setup:
-    step1_title: "Step 1: Have your seed/mnemonic at hand."
-    step1: All words of your seed come from the BIP-39 word list. One property of that wordlist is that it is enough to know the first 4 letters of a word to identify it unanimously. That's why you can only punch the first 4 letters of each word on your Steelwallet.
-    step2_title: "Step 2: Grab a marker and mark the holes you need to punch."
-    step2: For example, if your first word is "escape", make a mark where column 1 and row E cross. Continue with the first 4 letters of each word.
-    step3_title: "Step 3: Check that you've marked all spots correctly"
-    step3: Before you use the automatic puncher you should verify that you've marked all spots correctly.
-    step4_title: "Step 4: Take the puncher and punch the spots that you've marked."
-    step4: After having punched the first 6 words, turn the sheet around and punch the next 6 words. Repeat until you've punched your whole seed.
-    step5_title: "Step 5: Store the Steelwallet sheets safely"
-    step5: Once you have finished setting up your Steelwallet, make sure to store it in a safe location.
+    step1_title: "Schritt 1: Habe deinen Seed parat."
+    step1: Alle Wörter deines Seeds kommen von einer standardisierten Liste (BIP-39). Eine Eigenschaft dieser Liste ist, dass jedes Wort anhand der ersten vier Buchstaben zweifelsfrei identifiziert werden kann. Deshalb musst du nur die ersten 4 Buchstaben jedes Seed Wortes in dein Steelwallet stanzen.
+    step2_title: "Schritt 2: Markiere alle Felder die du stanzen musst mit einem Edding."
+    step2: Zum Beispiel, ist das erste Wort "escape" dann markiere das Feld wo sich Zeile 1 und Reihe "E" kreuzen. Mache dies für die ersten vier Buchstaben jedes Seed-Wortes.
+    step3_title: "Schritt 3: Stelle sicher, dass du alle Felder korrekt markiert hast."
+    step3: Bevor du mit dem Körner die markierten Felder stanzt, stelle bitte sicher, dass du alles richtig markiert hast.
+    step4_title: "Schritt 4: Nimm den Körner und stanze in die markierten Felder."
+    step4: Nachdem du die ersten sechs Wörter gestanzt hast, drehe die Platte herum und stanze die nächsten sechs Wörter. Wiederhole dies, bis du deinen gesamten Seed gestanzt hast.
+    step5_title: "Schritt 5: Bewahre dein Steelwallet sicher auf."
+    step5: Wenn du deinen Seed fertig gestanzt hast, bewahre dein Steelwallet an einem sicheren Ort auf, wo nur du Zugriff darauf hast.
   faq:
     title: "Steelwallet FAQs:"
-    question1: What types of private keys can be stored using Steelwallet?
-    answer1: Steelwallet supports the BIP-39 standard which allows you to store 12,18 and 24 word seeds on your Steelwallet. The words on the BIP-39 word list are chosen so that there is only one possible word if you know the first four letters of that word. It is impossible that there are multiple words that start with the same four letters. That’s why you only need (and only can) punch the first 4 letters of word of your seed onto your Steelwallet.
-    question2: What happens if my Steelwallet gets stolen?
-    answer2: For obvious reason you should try to avoid that at all cost. If it contrary to expectations gets stolen anyway you should immediately withdraw your funds from your hardware wallet and transfer it to a new one that has a different seed. We recommend using a dedicated hardware wallet like BitBox, Trezor, Ledger etc.  If you don’t have one at hand when you need to transfer your funds (in case of a stolen Steelwallet then we recommend transferring your funds to a software wallet and send them onto a hardware wallet as soon as you have one. You may find a more detailed version of how to do so at the webpage of your device manufacturer.
-    question3: How do I recover my data protected by Steelwallet?
-    answer3: In case you need to recover your wallet with your seed which is stored on your Steelwallet, you should do so without leaking it. That means that you should not type in your seed into a software-wallet on your computer or smartphone or any other device which is connected to the internet. By doing so you risk leaking your seed and thereby the theft of your funds due to the likelihood of viruses, key-loggers and malware installed on such devices.  We recommend typing in your seed on a hardware-wallet like BitBox, Trezor, Legder....
-    question4: Where should I store my Steelwallet and where should I better not keep it?
-    answer4: You should keep it in a secure place only you know about. This can be anything from a safe, to a bank locker or bury it in your backyard. Anything is possible, since it’s made out of stainless steel it is very resistant to weather conditions.  For increases security we recommend you to split your Steelwallet and store the plates in different locations. That ensures that even if one sheet is found, the attacker does not have access to your funds.  However, you should still transfer  your funds to a new wallet if you know that one of your sheets has been compromised.
-    question5: What happens if the company behind Steelwallet shuts their doors?
-    answer5: Although we hope that won’t ever happen, nothing would change for you. Your seed, still is and will be safely stored on your Steelwallet for a very long time and you could get new sheets made yourself.
-    question6: Are there any tests on how resistant Steelwallet is?
-    answer6: "Yes, Jameson Lopp published a great article, comparing a wide variety of tools. He comes to the following conclusion: 'With these considerations in mind, I’d suggest that Blockplate and Steelwallet seem to be the most robust and simple options.' The article can be found "
-    answer6b: here
+    question1: Welche Arten von privaten Schlüsseln (private keys) kann Steelwallet aufbewahren?
+    answer1: Steelwallet unterstützt den BIP-39 Standard wodurch Seeds von 12, 18 und 24 Wörtern auf einem Steelwallet aufbewahrt werden können. Die Wörter der BIP-39 Liste lassen sich anhand der ersten vier Buchstaben zweifelsfrei identifizieren, wodurch du nur die ersten 4 Buchstaben jedes Seed Wortes in dein Steelwallet stanzen musst. Es ist nicht möglich, dass mehrere Wörter mit den gleichen vier Buchstaben beginnen.
+    question2: Was passiert, wenn mein Steelwallet gestohlen wird?
+    answer2: Das solltest du natürlich vermeiden. Sollte dein Steelwallet trotzdem gestohlen werden, schicke deine Coins sofort auf ein neues Wallet mit einem anderen Seed.
+    question3: Wie stelle ich meinen Seed von meinen Steelwallet wieder her?
+    answer3: Wenn der Fall eintritt, dass du deinen Seed von deinem Steelwallet wieder herstellen musst, dann solltest du dies tun, ohne deinen Seed zu leaken. Das heißt, du solltest ihn nicht auf deinem Computer/Handy in ein Software Wallet eintippen, sondern ein Hardware-Wallet verwenden.
+    question4: Wo soll ich mein Steelwallet aufbewahren und wo besser nicht?
+    answer4: Du solltest es an einem sicheren Ort aufbewahren, von dem nur du weißt. Das kann zum Beispiel ein Tresor, ein Bankschließfach oder ein Loch im Garten sein. Da Steelwallet aus Edelstahl hergestellt ist sind deiner Fantasie (fast) keine Grenzen gesetzt. Für zusätzlichen Schutz kannst du die zwei Platten auch an unterschiedlichen Orten aufbewahren. Sollte eine Platte gefunden werden reicht dies nicht aus, um Zugang zu deinen Coins zu bekommen.
+    question5: Was wenn die Firma, die Steelwallet produziert, bankrott geht?
+    answer5: Obwohl wir hoffen, dass dies nie passiert, für dich würde sich nichts ändern. Dein Seed ist immer noch in Edelstahl gestanzt und wenn du willst kannst du dir sogar neue Platten selbst herstellen.
+    question6: Gibt es Testberichte über Steelwallet?
+    answer6: "Ja, Jameson Lopp hat einen großartigen Artikel geschrieben, in dem er verschiedede Tools testet. Er kommt zu folgendem Schluss: 'With these considerations in mind, I’d suggest that Blockplate and Steelwallet seem to be the most robust and simple options.' Ließ den Artikel "
+    answer6b: hier
 
 bb02:
   title: BitBox02
   sub_title: Hardware wallet
-  description: Swiss-made hardware wallets. Fully open-source with dual-chip architecture to protect your coins while making it easy to manage them.
-  pricing: From 99 EUR
-  how_to: How do I use a BitBox02?
-  edition_question: Which BitBox02 edition do you want?
-  edition_note: If you are not sure choose the Multi edition.
+  description: Hardware Wallets made in Switzerland. Komplett open-source mit Dual-chip Architektur für optimale Sicherheit und Nutzerfreundlichkeit.
+  pricing: Ab 99 EUR
+  how_to: Wie benutze ich eine BitBox02?
+  edition_question: Welche BitBox02 edition möchtest du?
+  edition_note: Falls du dir nicht sicher bist, wähle die Multi edition.
   multi:
     title: BitBox02 Multi edition
     coins: Bitcoin, Litecoin, Ethereum, ECR-20 tokens
-    feature: U2F support
+    feature: U2F Unterstützung
     display: OLED Display
-    sd: MicroSD card backup
-    design: Discrete design
-    touch: Touch sensors
-    origin: Developed and manufactured in Switzerland
+    sd: MicroSD Karten Backup
+    design: Unauffälliges Design
+    touch: Touch-Sensoren
+    origin: In der Schweiz entwickelt und hergestellt
     price: 99 EUR
   btc:
     title: BitBox02 Bitcoin-only edition
-    coins: Bitcoin only
-    feature: Reduced attack surface for Bitcoin-only hodlers
+    coins: Bitcoin
+    feature: Verringerte Angriffsfläche für Nutzer die nur Bitcoin hodln
     display: OLED Display
-    sd: MicroSD card backup
-    design: Discrete design
-    touch: Touch sensors
-    origin: Developed and manufactured in Switzerland
+    sd: MicroSD Karten Backup
+    design: Unauffälliges Design
+    touch: Touch-Sensoren
+    origin: In der Schweiz entwickelt und hergestellt
     price: 99 EUR
 
 bundle:
   title: Starter set bundle
-  contents: "Cointains: 1x BitBox02 hardware wallet and 1x Steelwallet metal backup tool"
-  description: Manage your cryptocurrency securely on the BitBox02 and use the Steelwallet to securely store the wallet backup on stainless steel in order to protect your seed against fire, water and other natural disasters.
-  pricing: From 139 EUR
-  edition_question: Please choose the BitBox02 edition
-  edition_note: If you are not sure choose 'Multi-edition'
+  contents: "Enthält: 1x BitBox02 Hardware wallet und 1x Steelwallet metal backup tool"
+  description: Verwalte deine Kryptowährungen sicher mit der BitBox02 und verwende das Steelwallet um dein Wallet Backup in Edelstahl zu sichern, um es so gegen Feuer, Wasser und andere Schäden zu schützen.
+  pricing: Ab 139 EUR
+  edition_question: Bitte wähle die BitBox02 edition
+  edition_note: Falls du dir nicht sicher bist, wähle die Multi edition.
 
 banner:
-  text: For all orders paid in Bitcoin (BTC) we grant a 10% discount.
-  contact: Contact us before you order to get the discount code
+  text: Für alle Bestellungen die mit Bitcoin (BTC) gezahlt werden gewähren wir 10% Rabatt.
+  contact: Bitte kontaktiere uns bevor du bestellst
+
+descriptions:
+  btc: Hol dir die BitBox02 Bitcoin-only Edition für den besten Schutz wenn du nur Bitcoin hälst. Made in Switzerland.
+  multi: Die BitBox02 Multi Eidition unterstützt Bitcoin, Litecoin, Ethereum, U2F und ERC-20 tokens. Made in Switzerland.
+  sw_set: Das Steelwallet Set enthält 2x lasergravierte Edelstahlplatte für 24 Seed Wörter und einen automatischen Körner.
+  sw_sheets: Dieses Produkt enthählt 2x lasergravierte Edelstahlplatte für 24 Seed Wörter ohne einen Körner.
+  set: Dieses Set enthält ein Steelwallet Set und ein BitBox02 hardware wallet für besten Schutz zu einem günstigen Preis. Spare mit diesem Set anstatt die Komponenten einzeln zu kaufen.
