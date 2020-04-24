@@ -86,7 +86,7 @@ bb02:
   sub_title: Hardware wallet
   description: Hardware Wallets made in Switzerland. Komplett open-source mit Dual-chip Architektur für optimale Sicherheit und Nutzerfreundlichkeit.
   pricing: Ab 99 EUR
-  how_to: Wie benutze ich eine BitBox02?
+  how_to: Wie verwende ich eine BitBox02?
   edition_question: Welche BitBox02 edition möchtest du?
   edition_note: Falls du dir nicht sicher bist, wähle die Multi edition.
   multi:
