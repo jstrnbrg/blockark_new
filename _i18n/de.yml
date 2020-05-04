@@ -25,7 +25,7 @@ steelwallet:
   sub_title: Metal backup tool
   description: Mit Steelwallet kannst du deinen Seed mit Leichtigkeit in Edelstahl verewigen, um ihn so vor Feuer, Wasser und anderen Schäden zu schützen.
   seo_description_set: Das Steelwallet Set enthält 2x gravierte Edelstahlplatten was für 24 Seed-Wörter ausreicht und einen automatischen Körner.
-  pricing: From 54 EUR
+  pricing: Ab 54 EUR
   how_to: Wie verwende ich ein Steelwallet?
   puncher_question: Brauchst du einen Körner?
   puncher_needed: Ja, ich brauche einen Körner.
@@ -84,7 +84,7 @@ steelwallet:
 bb02:
   title: BitBox02
   sub_title: Hardware wallet
-  description: Hardware Wallets made in Switzerland. Komplett open-source mit Dual-chip Architektur für optimale Sicherheit und Nutzerfreundlichkeit.
+  description: Hardware Wallet in der Schweiz entwickelt und produziert. Komplett open-source mit Dual-Chip Architektur für optimale Sicherheit und Nutzerfreundlichkeit.
   pricing: Ab 99 EUR
   how_to: Wie verwende ich eine BitBox02?
   edition_question: Welche BitBox02 edition möchtest du?
@@ -120,11 +120,11 @@ bundle:
 
 banner:
   text: Für alle Bestellungen die mit Bitcoin (BTC) gezahlt werden gewähren wir 10% Rabatt.
-  contact: Bitte kontaktiere uns bevor du bestellst
+  contact: Bitte kontaktiere uns bevor du bestellst.
 
 descriptions:
-  btc: Hol dir die BitBox02 Bitcoin-only Edition für den besten Schutz wenn du nur Bitcoin hälst. Made in Switzerland.
-  multi: Die BitBox02 Multi Eidition unterstützt Bitcoin, Litecoin, Ethereum, U2F und ERC-20 tokens. Made in Switzerland.
+  btc: Hol dir die BitBox02 Bitcoin-only Edition für den besten Schutz wenn du nur Bitcoin hälst. Hergestellt in der Schweiz.
+  multi: Die BitBox02 Multi Eidition unterstützt Bitcoin, Litecoin, Ethereum, U2F und ERC-20 tokens. Hergestellt in der Schweiz.
   sw: Steelwallet ist ein offline Backup-tool aus Edelstahl zur einfachen Sicherung deines Seeds gegen Feuer, Wasser und andere Schäden.
   sw_set: Das Steelwallet Set enthält 2x lasergravierte Edelstahlplatte für 24 Seed Wörter und einen automatischen Körner.
   sw_sheets: Dieses Produkt enthählt 2x lasergravierte Edelstahlplatte für 24 Seed Wörter ohne einen Körner.
