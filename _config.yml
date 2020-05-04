@@ -4,8 +4,7 @@
 title: Blockark
 permalink: pretty
 date_format: "%e %B %Y" # http://strftime.net
-baseurl: /blockark_dev
-
+baseurl:
 # https://github.com/jekyll/jekyll/issues/7478
 theme: null
 
