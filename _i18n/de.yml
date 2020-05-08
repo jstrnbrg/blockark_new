@@ -9,6 +9,7 @@ global:
   recommended: Empfohlen
   title: Was suchen Sie?
   get_yours: Hol dir deins!
+  here: hier
 
 footer:
   contact: Kontakt
@@ -130,3 +131,25 @@ descriptions:
   sw_sheets: Dieses Produkt enthählt 2x lasergravierte Edelstahlplatte für 24 Seed Wörter ohne einen Körner.
   set: Dieses Set enthält ein Steelwallet Set und ein BitBox02 hardware wallet für besten Schutz zu einem günstigen Preis. Spare mit diesem Set anstatt die Komponenten einzeln zu kaufen.
   blockark: Steelwallet Backup Tool Hersteller und BitBox Hardware-Wallet Vertrieb in der EU.
+  starter_set: Im Bitcoin Starter Set findest du alles was du brauchst, um deine Bitcoins sicher aufzubewahren.
+
+starter_set:
+  title: Bitcoin Starter Set
+  contents: 1x BitBox02 Hardware Wallet, 1x Steelwallet Set mit Körner, 1x "Bitcoin Standard" Book, 2x Debasafe Sicherheitstaschen
+  pricing: 155 EUR
+  edition_note: Bitte wähle die BitBox02 Edition
+  edition_question: Falls du dir nicht sicher bist, wähle die Multi edition.
+  what_question: Was ist ein Bitcoin Starter Set?
+  what:
+    what1: Mit dem Bitcoin Starter Set hast du alles, was du zur sicheren Nutzung und Verwahrung deiner Bitcoin benötigst.
+    what2: Spare 25 EUR im Vergleich zum Einzelkauf der Komponenten.
+  box_question: Was ist alles im Bitcoin Starter Set enthalten?
+  box:
+    box1: Das Bitcoin Starter Set enthält 1x BitBox02 Hardware Wallet und 1x Steelwallet Set mit Körner.
+    box2: Zusätzlich erhälst du das "Bitcoin Standard" Buch von Saifedean Ammous und 2x Debasafe Sicherheitstaschen gratis dazu.
+  setup_question: Wie richte ich mein Bitcoin Starter Set ein?
+  setup:
+    step1_title: "Schritt 1: Richte dein BitBox02 Hardware wallet ein"
+    step1: Eine Anleitung zur Einrichtung deiner BitBox02 findest du
+    step2_title: "Schritt 2: Richte dein Steelwallet ein"
+    step2: Eine Anleitung zur Einrichtung deines Steelwallets findest du

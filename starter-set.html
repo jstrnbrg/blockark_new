@@ -1,0 +1,119 @@
+---
+title: Bitcoin Starter Set
+description: descriptions.starter_set
+layout: default
+---
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">{% t starter_set.what_question %}</h3>
+      </div>
+    </div>
+  </div>
+</header>
+{% include banner.html %}
+<style>
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+    min-width: 100px;
+}
+</style>
+<div style="width: 100%; height: auto;  position: fixed; bottom: 0; right: 0; z-index: 100">
+  <div id="wider" style=" margin-left: auto; margin-right: auto">
+    <a style="margin-top: 0.7em; margin-bottom: 0.7em; margin-left: auto; margin-right: auto; " class="button is-primary" href="{{ site.baseurl }}{% link products/starter-set.html %}">{% t global.get_yours %}</a>
+  </div>
+</div>
+
+
+<div class="container ">
+  <img class="mobile-only" src="{{ '/img/Metallplatte_001fin.png' | prepend: site.baseurl_root }}">
+  <div class="columns is-gapless area--white">
+    <div class="column is-one-third" style="background-image: url({{ '/img/Metallplatte_001fin.png' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+    <div class="column">
+      <div class="block">
+        <p class="block-sub-title">{% t starter_set.name %}</p>
+        <ul>
+          <li>{% t starter_set.what.what1 %}</li>
+          <li>{% t starter_set.what.what2 %}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="block">
+    </div>
+</div>
+
+<div class="container">
+  <div class="card-small">
+  <div class="columns is-gapless">
+    <div class="column area--white">
+      <div class="block">
+        <p class="block-sub-title">{% t starter_set.box_question %}</p>
+        <img class="mobile-only" src="{{ '/img/bitcoin_standard.png' | prepend: site.baseurl_root }}">
+        <ul>
+          <li>{% t starter_set.box.box1 %}</li>
+          <li>{% t starter_set.box.box2 %}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="column area--white is-one-third" style="background-image: url({{ '/img/bitcoin_standard.png' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="block">
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="card-small mb-2">
+    <div class="columns is-gapless">
+      <div class="column area--white">
+        <div class="block has-text-white">
+        <h4 class="block-sub-title pb-2">{% t starter_set.setup_question %}</h4>
+      </div>
+    </div>
+    </div>
+
+    <section id="step1">
+    <div class="columns is-gapless area--white">
+      <div class="column is-one-third" style="background-image: url({{ '/img/bb02_multi.png ' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+      <div class="column">
+        <div class="block">
+          <p class="block-sub-title">{% t starter_set.setup.step1_title %}</p>
+          <img class="mobile-only" src="{{ '/img/bb02_multi.png' | prepend: site.baseurl_root }}">
+          <p>{% t starter_set.setup.step1 %}  <a href="https://guides.shiftcrypto.ch/bitbox02/setup/">{% t global.here %}</a>.</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="step2">
+      <div class="columns is-gapless area--white pb-2">
+        <div class="column is-one-third" style="background-image: url({{ '/img/Metall_dotted_white.jpeg ' | prepend: site.baseurl_root }}); background-size: auto 100%; background-repeat: no-repeat; background-position: center center;"></div>
+        <div class="column">
+          <div class="block">
+            <p class="block-sub-title">{% t starter_set.setup.step2_title %}</p>
+            <img class="mobile-only" src="{{ '/img/Metall_dotted_white.jpeg ' | prepend: site.baseurl_root }}">
+            <p>{% t starter_set.setup.step2 %} <a href="{{ site.baseurl }}{% link steelwallet.html %}">{% t global.here %}</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

@@ -9,6 +9,7 @@ global:
   recommended: Recommended
   title: What are you looking for?
   get_yours: Get yours!
+  here: here
 
 footer:
   contact: Contact
@@ -130,3 +131,25 @@ descriptions:
   sw_sheets: This item contains two Steelwallet sheets without a puncher.
   set: This bundle contains one Steelwallet set and a BitBox02 hardware wallet giving you great protection for your coins at an affordable price. Save money compared to buying the BitBox02 and Steelwallet separately.
   blockark: Steelwallet backup tool producer and BitBox hardware wallet reseller for the EU.
+  starter_set: The Bitcoin Starter Set contains everything you need to securley use and store your Bitcoins.
+
+starter_set:
+  title: Bitcoin Starter Set
+  contents: 1x BitBox02 Hardware Wallet, 1x Steelwallet Set with puncher, 1x "Bitcoin Standard" Book (German), 2x Debasafe security bags
+  pricing: 155 EUR
+  edition_note: Please choose the BitBox02 edition
+  edition_question: If you are not sure choose 'Multi-edition'
+  what_question: What is a Bitcoin Starter set?
+  what:
+    what1: The Bitcoin Starter Set contains everything you need to securley use and store your Bitcoins.
+    what2: Compared to buying the components seperately you're saving 25 EUR.
+  box_question: What does the Bitcoin Starter Set cointain?
+  box:
+    box1: The Bitcoin Starter Set contains 1x BitBox02 Hardware Wallet and 1x Steelwallet Set with puncher.
+    box2: Additionally, you will get the "Bitcoin Standard" in German and 2x Debasafe security bags for free.
+  setup_question: How do I set up my Bitcoin Starter Set?
+  setup:
+    step1_title: "Step 1: Setup your BitBox02 Hardware wallet"
+    step1: You can find the tutorial to set up your BitBox02
+    step2_title: "Setp 2: Setup your Steelwallet"
+    step2: You can find the tutorial to set up your Steelwallet

@@ -25,7 +25,11 @@ layout: default
 {% include banner.html %}
 
     <div class="container mt-3">
-      {% include bundle.html %}
+      {% if site.lang == "de" %}
+        {% include bundle-starter-set.html %}
+      {% else %}
+        {% include bundle.html %}
+      {% endif %}
       <div class="columns">
         <div class="column" >
           <div class="card" style="width: auto;">

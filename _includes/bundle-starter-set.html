@@ -1,0 +1,20 @@
+<div class="columns">
+  <div class="column">
+    <div class="card" style="width: auto">
+      {% if page.title != "Blockark" %}
+      <h3 class="p-3">{% t global.recommended %}:</h3>
+      {% endif %}
+      <div class="grid-container" style="display:grid;margin:auto;grid-template-columns: auto auto">
+          <img src="{{ '/img/Metall_pu_fin.jpeg ' | prepend: site.baseurl_root }}" alt="" style="height:auto" />
+          <img src="{{ '/img/02_bb02_laptop-thumbnail-1080x1080.png ' | prepend: site.baseurl_root  }}" alt="" style="height:auto" />
+      </div>
+      <div class="card-body d-flex flex-column">
+        <h3 class="card-title">{% t starter_set.title %}</h3>
+        <li class="list-group-item">{% t starter_set.contents %}</li>
+        <li class="list-group-item">{% t starter_set.what.what1 %}</li>
+        <li class="list-group-item">{% t starter_set.pricing %} ({% t starter_set.what.what2 %})</li>
+        <a href="{{ site.baseurl }}{% link products/bundle.html %}" class="btn btn-primary mt-2">{% t global.continue %}</a>
+      </div>
+    </div>
+  </div>
+</div>

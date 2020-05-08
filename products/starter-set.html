@@ -1,0 +1,30 @@
+---
+title: Bitcoin Starter Set
+description: descriptions.starter_set
+layout: default
+---
+<header style="background-color: #fff">
+  <div class="container">
+    <div class="row is-gapless">
+      {% if page.title != "Blockark" %}
+      <button class="btn btn-secondary p-1 m-2" onclick="goBack()">{% t global.back %}</button>
+      {% endif %}
+      <div class="column p-2"  >
+          <h3 style="margin-top:8px">{% t starter_set.edition_question %}</h3>
+          <p>{% t starter_set.edition_note %}</p>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container mt-3">
+  <div class="columns">
+    <div class="column">
+      <div class="card" style="width: auto;">
+      {% if site.lang == "en" %}
+        {% include warning.html warning="The book contained in this set is in German" %}
+      {% endif %}
+      {% include products/starter-set.html %}
+      </div>
+    </div>
+  </div>
+</div>
