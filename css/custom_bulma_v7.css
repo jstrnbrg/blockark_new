@@ -136,14 +136,6 @@ body {
   background-color: #333132; !important
   line-height: 1.2; }
 
-a {
-  color: #333132;
-  cursor: pointer;
-  text-decoration: none; }
-  a strong {
-    color: currentColor; }
-  a:hover {
-    color: #363636; }
 
 code {
   background-color: whitesmoke;
@@ -6748,10 +6740,6 @@ input, select {
   padding-left: 0;
   padding-right: 0; }
 
-@media screen and (max-width: 768px) {
-  .column {
-    padding-bottom: 0; } }
-
 .input {
   box-shadow: none;
   border-radius: 0;
@@ -7111,8 +7099,6 @@ nav.top-nav {
   background-color: #FFFFFF;
   overflow: hidden;
   color: #333132; }
-  .area--white a {
-    color: #333132; }
   .area--white .block-title, .area--white .block-sub-title {
     color: #3d3d3d; }
 
@@ -7174,7 +7160,7 @@ nav.top-nav {
 
 .block-sub-title {
   font-family:  Helvetica, Arial, sans-serif;
-  font-weight: 550; 
+  font-weight: 550;
 }
 
 .block-title--alt {
