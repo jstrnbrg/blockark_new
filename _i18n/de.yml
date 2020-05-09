@@ -153,3 +153,10 @@ starter_set:
     step1: Eine Anleitung zur Einrichtung deiner BitBox02 findest du
     step2_title: "Schritt 2: Richte dein Steelwallet ein"
     step2: Eine Anleitung zur Einrichtung deines Steelwallets findest du
+
+
+sw_halving:
+  title: Steelwallet Halving Special
+  description: Dieses Halving Special enthält 2x das normale Steelwallet Set.
+  pricing: Im Vergleich zum Kauf von zwei seperaten Steelwallet Sets sparen Sie 35%. Bei Bezahlung mit Bitcoin sogar 50%.
+  contains: 4x gravierte Steelwallet Platten, 2x automatischer Körner, 4x Debasafe Sicherheitstaschen

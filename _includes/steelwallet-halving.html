@@ -1,0 +1,20 @@
+<div class="columns" style="background-color: orange">
+  <div class="column">
+    <div class="card" style="width: auto; ">
+      {% if page.title != "Blockark" %}
+      <h3 class="p-3">{% t global.recommended %}:</h3>
+      {% endif %}
+      <div class="grid-container" style="display:grid;margin:auto;grid-template-columns: auto auto">
+        <img src="{{ '/img/Metall_pu_fin.jpeg ' | prepend: site.baseurl_root }}" alt="" style="height:auto" />
+        <img src="{{ '/img/Metall_pu_fin.jpeg ' | prepend: site.baseurl_root  }}" alt="" style="height:auto" />
+      </div>
+      <div class="card-body d-flex flex-column">
+        <h3 class="card-title">{% t sw_halving.title %}</h3>
+        <li class="list-group-item">{% t sw_halving.contains %}</li>
+        <li class="list-group-item">{% t sw_halving.description %}</li>
+        <li class="list-group-item">{% t sw_halving.pricing %}</li>
+        <a href="{{ site.baseurl }}{% link products/sw-halving.html %}" class="btn btn-warning mt-2">{% t global.continue %}</a>
+      </div>
+    </div>
+  </div>
+</div>

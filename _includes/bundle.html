@@ -1,4 +1,4 @@
-<div class="columns">
+<div class="columns" style="background-color: orange">
   <div class="column">
     <div class="card" style="width: auto">
       {% if page.title != "Blockark" %}
@@ -13,7 +13,7 @@
         <li class="list-group-item">{% t bundle.contents %}</li>
         <li class="list-group-item">{% t bundle.description %}</li>
         <li class="list-group-item">{% t bundle.pricing %}</li>
-        <a href="{{ site.baseurl }}{% link products/bundle.html %}" class="btn btn-primary mt-2">{% t global.continue %}</a>
+        <a href="{{ site.baseurl }}{% link products/bundle.html %}" class="btn btn-warning mt-2">{% t global.continue %}</a>
       </div>
     </div>
   </div>
