@@ -112,7 +112,7 @@ bb02:
     price: 99 EUR
 
 bundle:
-  title: Starter set bundle
+  title: Steelwallet & BitBox02
   contents: "Enthält: 1x BitBox02 Hardware wallet und 1x Steelwallet metal backup tool"
   description: Verwalte deine Kryptowährungen sicher mit der BitBox02 und verwende das Steelwallet um dein Wallet Backup in Edelstahl zu sichern, um es so gegen Feuer, Wasser und andere Schäden zu schützen.
   pricing: Ab 139 EUR
@@ -155,8 +155,8 @@ starter_set:
     step2: Eine Anleitung zur Einrichtung deines Steelwallets findest du
 
 
-sw_halving:
-  title: Steelwallet Halving Special
-  description: Dieses Halving Special enthält 2x das normale Steelwallet Set.
-  pricing: Im Vergleich zum Kauf von zwei seperaten Steelwallet Sets sparen Sie 35%. Bei Bezahlung mit Bitcoin nochmal 15% extra.
+sw_double_pack:
+  title: Steelwallet Doppelpack
+  description: Dieser Doppelpack enthält 2x das normale Steelwallet Set.
+  pricing: Im Vergleich zum Kauf von zwei seperaten Steelwallet Sets sparen Sie 10%. Bei Bezahlung mit Bitcoin nochmal 15% extra.
   contains: 4x gravierte Steelwallet Platten, 2x automatischer Körner, 4x Debasafe Sicherheitstaschen

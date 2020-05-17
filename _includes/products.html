@@ -1,0 +1,28 @@
+<div class="columns">
+  <div class="column" >
+    <div class="card" style="width: auto;">
+      <img class="card-img-top" data-wow-delay=".3s" src="{{ '/img/Metall_pu_fin.jpeg '| prepend: site.baseurl_root }}" alt="" style="height:auto" />
+      <div class="card-body d-flex flex-column">
+        <h3 class="card-title">{% t steelwallet.title %}</h3>
+        <h5 class="card-title">{% t steelwallet.sub_title %}</h5>
+        <li class="list-group-item">{% t steelwallet.description %}</li>
+        <li class="list-group-item">{% t steelwallet.pricing %}</li>
+        <a href="{{ site.baseurl }}{% link steelwallet.html %}" class="btn btn-secondary mt-2">{% t steelwallet.how_to %}</a>
+        <a href="{{ site.baseurl }}{% link options/steelwallet-puncher.html %}" class="btn btn-primary  mt-2">{% t global.continue %}</a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card" style="width: auto;">
+      <img class="card-img-top" data-wow-delay=".3s" src="{{ '/img/02_bb02_laptop-thumbnail-1080x1080.png ' | prepend: site.baseurl_root  }}" alt="" style="height:auto" />
+      <div class="card-body d-flex flex-column">
+        <h3 class="card-title">{% t bb02.title %}</h3>
+        <h5 class="card-title">{% t bb02.sub_title %}</h5>
+        <li class="list-group-item">{% t bb02.description %}</li>
+        <li class="list-group-item">{% t bb02.pricing %}</li>
+        <a href="https://guides.shiftcrypto.ch/bitbox02/setup/" target="_blank" class="btn btn-secondary mt-2">{% t bb02.how_to %}</a>
+        <a href="{{ site.baseurl }}{% link options/bitbox02-editions.html %}" class="btn btn-primary mt-2">{% t global.continue %}</a>
+      </div>
+    </div>
+  </div>
+</div>
