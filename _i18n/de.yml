@@ -142,7 +142,7 @@ starter_set:
   what_question: Was ist ein Bitcoin Starter Set?
   what:
     what1: Mit dem Bitcoin Starter Set hast du alles, was du zur sicheren Nutzung und Verwahrung deiner Bitcoin benötigst.
-    what2: Spare 15% im Vergleich zum Einzelkauf der Komponenten. Bei Bezahlung mit Bitcoin nochmal 15% extra.
+    what2: Spare 15% im Vergleich zum Einzelkauf der Komponenten.
   box_question: Was ist alles im Bitcoin Starter Set enthalten?
   box:
     box1: Das Bitcoin Starter Set enthält 1x BitBox02 Hardware Wallet und 1x Steelwallet Set mit Körner.
@@ -158,5 +158,5 @@ starter_set:
 sw_double_pack:
   title: Steelwallet Doppelpack
   description: Dieser Doppelpack enthält 2x das normale Steelwallet Set.
-  pricing: Im Vergleich zum Kauf von zwei seperaten Steelwallet Sets sparen Sie 10%. Bei Bezahlung mit Bitcoin nochmal 15% extra.
+  pricing: Im Vergleich zum Kauf von zwei seperaten Steelwallet Sets sparen Sie 10%.
   contains: 4x gravierte Steelwallet Platten, 2x automatischer Körner, 4x Debasafe Sicherheitstaschen
